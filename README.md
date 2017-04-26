@@ -1,6 +1,6 @@
 # npmtest-speakingurl
 
-#### test coverage for  [speakingurl (v13.0.0)](http://pid.github.io/speakingurl/)  [![npm package](https://img.shields.io/npm/v/npmtest-speakingurl.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-speakingurl) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-speakingurl.svg)](https://travis-ci.org/npmtest/node-npmtest-speakingurl)
+#### basic test coverage for  [speakingurl (v13.0.0)](http://pid.github.io/speakingurl/)  [![npm package](https://img.shields.io/npm/v/npmtest-speakingurl.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-speakingurl) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-speakingurl.svg)](https://travis-ci.org/npmtest/node-npmtest-speakingurl)
 
 #### Generate a slug – transliteration with a lot of options
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-speakingurl/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-speakingurl/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-speakingurl/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-speakingurl/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-speakingurl/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-speakingurl/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-speakingurl/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-speakingurl/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-speakingurl/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-speakingurl/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-speakingurl/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-speakingurl/build/coverage.html/index.html)
 
@@ -133,7 +133,8 @@
     "version": "13.0.0",
     "volo": {
         "url": "//cdnjs.cloudflare.com/ajax/libs/speakingurl/{version}/speakingurl.min.js"
-    }
+    },
+    "bin": {}
 }
 ```
 
